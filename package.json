@@ -13,6 +13,6 @@
   "author": "Mike Sabatini",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.4"
+    "event-emitter-es6": "^1.1.5"
   }
 }

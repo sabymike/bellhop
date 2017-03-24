@@ -2,5 +2,7 @@
 
 const Manager = require('./lib/manager');
 
-let manager = new Manager(10, 0);
-console.log(manager._elevators);
+let manager = new Manager(10, 2);
+
+let elevator = manager._elevators[0];
+elevator.gotoFloor(200);
